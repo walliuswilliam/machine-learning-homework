@@ -9,4 +9,4 @@ X_2 = transpose(X)*X
 y_3 = inv(X_2)*y_2
 
 final_time = time_ns()
-println((final_time - start_time)/1000000000)
+println("Julia Time - ", (final_time - start_time)/1000000000)

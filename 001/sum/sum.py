@@ -8,5 +8,4 @@ for i in range(10):
     total += num
 
 final_time = time.time()
-
-print(final_time - start_time)
+print('Python Time -', final_time - start_time)

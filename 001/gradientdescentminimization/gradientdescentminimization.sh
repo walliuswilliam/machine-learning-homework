@@ -1,0 +1,3 @@
+echo "Gradient Descent Minimization"
+python 001/gradientdescentminimization/gradientdescentminimization.py
+julia 001/gradientdescentminimization/gradientdescentminimization.jl

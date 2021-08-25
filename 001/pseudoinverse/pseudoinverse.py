@@ -12,4 +12,4 @@ X_2 = np.matmul(np.transpose(X),X)
 y_2 = np.matmul(np.linalg.inv(X_2), y)
 
 final_time = time.time()
-print(final_time - start_time)
+print("Python Time -", final_time - start_time)

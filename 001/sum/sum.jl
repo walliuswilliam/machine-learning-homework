@@ -8,4 +8,4 @@ for i in 1:10
 end  
 
 final_time = time_ns()
-println((final_time - start_time)/1000000000)
+println("Julia Time - ", (final_time - start_time)/1000000000)

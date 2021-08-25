@@ -1,0 +1,3 @@
+echo "Gradient Descent Parameter Fitting"
+python 001/gradientdescentparameterfitting/gradientdescentparameterfitting.py
+julia 001/gradientdescentparameterfitting/gradientdescentparameterfitting.jl
