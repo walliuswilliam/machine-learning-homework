@@ -14,8 +14,8 @@ def gradient(x,y,delta=0.01,alpha=0.001):
 point = [1,2]
 for num in range(2):
   point = gradient(point[0],point[1])
+  print("Python {} Point -".format(num+1), point)
 
-print("Python Point -", point)
 
 final_time = time.time()
 print("Python Time -", final_time - start_time)

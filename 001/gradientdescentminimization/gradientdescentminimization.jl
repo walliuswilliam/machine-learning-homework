@@ -14,6 +14,9 @@ point = [1,2]
 for i in 1:2
   global point
   point = gradient(point[1],point[2])
+  if i < 3
+    println("Julia ",i," Point - ", point)
+  end
 end
 global point
 println("Julia Point - ",point)

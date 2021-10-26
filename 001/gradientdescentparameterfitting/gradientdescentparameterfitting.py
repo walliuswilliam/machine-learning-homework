@@ -14,8 +14,10 @@ def gradient(x,y,delta=0.01,alpha=0.001):
 point = [1,2]
 for num in range(10000):
   point = gradient(point[0],point[1])
+  if num < 2:
+    print("Python {} Point -".format(num+1), point)
 
-print("Python Point -", point)
+print("Python Final Point -", point)
 
 final_time = time.time()
 print("Python Time -", final_time - start_time)
